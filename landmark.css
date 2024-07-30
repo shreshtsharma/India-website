@@ -1,0 +1,104 @@
+body {
+  background-color: #b2dfdb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #015656;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #00796b;
+}
+
+header p {
+  max-width: 80ch;
+  margin: auto;
+  color: #00796b;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.dark-mode h1,
+.dark-mode header p {
+  color: #ffffff;
+}
+
+/* CSS for the landmark-section */
+.landmark-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(44, 43, 43);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.dark-mode .landmark-section {
+  background-color: #0a7669;
+  color: #ffffff;
+}
+
+.landmark-section h2 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.landmark-section img {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.landmark-section p {
+  font-size: 25px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.landmark-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.landmark-section li {
+  font-size: 23px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.landmark-section li strong {
+  color: #00796b;
+}
+
+.dark-mode .landmark-section li strong {
+  color: #d0ee38;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    font-size: 20px;
+  }
+}
+#theme-icon {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  cursor: pointer;
+}

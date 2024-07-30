@@ -1,0 +1,75 @@
+body {
+  background-color: #b2dfdb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+
+  font-size: 50px;
+  color: #00796b;
+}
+header p {
+  max-width: 80ch;
+  margin: auto;
+  color: #00796b;
+  font-size: 25px;
+  line-height: 150%;
+}
+/* CSS for the culture-section */
+/* CSS for the culture-section */
+
+.culture-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff; /* Plain background color */
+  color: rgb(44, 43, 43); /* White text for better contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* font-family: "Arial, sans-serif"; */
+  max-width: 1200px; /* Increase container width */
+  margin: 0 auto; /* Center the container */
+}
+
+.culture-section h2 {
+  font-size: 45px; /* Increase font size */
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px;
+}
+
+.culture-section img {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.culture-section p {
+  font-size: 25px; /* Increase font size */
+  line-height: 1.8; /* Increase line height */
+  margin-bottom: 20px;
+}
+
+.culture-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.culture-section li {
+  font-size: 23px; /* Increase font size */
+  line-height: 1.8; /* Increase line height */
+  margin-bottom: 10px;
+}
+
+.culture-section li strong {
+  color: #00796b; /* Gold color for emphasis */
+}
+
+@media (min-width: 768px) {
+  .culture-section {
+    margin: 40px auto;
+    max-width: 1200px; /* Ensure the container stays centered and wide */
+  }
+}
